@@ -20,7 +20,7 @@
 title: <"Luke's Monologue"> "This is my title"# Make a title for your blog 
 email: <"mcdluke@gmail.com"> # Add your email 
 description: <"Luke's verbal meanderings"> >- This is my description# this means to ignore newlines until "baseurl:"
- Change the description so that it describes your blog2
+ Changhe the Luke's verbal meanderings description so that it describes your blog2
 baseurl: </stat386-projects> # keep this the same or change it to the name of the repository 
 url: <"https://Redskywalker7.github.io"> #  change this to "https://<your-github-username>.github.io"
 image: <assets/images/Sample.jpg>
