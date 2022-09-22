@@ -17,12 +17,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: <Luke's Monologue> # Make a title for your blog
-email: <mcdluke@gmail.com> # Add your email 
-description: <Luke's verbal meanderings> >- # this means to ignore newlines until "baseurl:"
+title: <"Luke's Monologue"> # Make a title for your blog
+email: <"mcdluke@gmail.com"> # Add your email 
+description: <"Luke's verbal meanderings"> >- # this means to ignore newlines until "baseurl:"
  Change the description so that it describes your blog
 baseurl: </stat386-projects> # keep this the same or change it to the name of the repository 
-url: <https://Redskywalker7.github.io> #  change this to "https://<your-github-username>.github.io"
+url: <"https://Redskywalker7.github.io"> #  change this to "https://<your-github-username>.github.io"
 image: <assets/images/Sample.jpg>
 author: <Luke McDowell">
 copyright: <LJM>" # Your initials or what you want the copyright to be.  Leave empty for no copyright
