@@ -25,7 +25,7 @@ baseurl: "/stat386-projects" # keep this the same or change it to the name of th
 url: "https://redskywalker7.github.io" #  change this to "https://<your-github-username>.github.io"
 image: "assets/images/Pokemon-Wallpaper-pokemon-32728062-1500-900.jpg"
 author: Luke McDowell
-copyright: ABCD # Your initials or what you want the copyright to be.  Leave empty for no copyright
+copyright: LJM # Your initials or what you want the copyright to be.  Leave empty for no copyright
 
 # Social media users names.  Leave fields blank that you don't want displayed
 twitter_username: 386student
