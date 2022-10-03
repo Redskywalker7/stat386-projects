@@ -33,6 +33,8 @@ Opening your terminal of choice and entering a simple 'pip install' should do th
 ## Using Streamlit
 
 
+For the purpose of this tutorial, lets create a simple
+
 
 ### Import the Streamlit Library
 Once Streamlit is installed, integrating your project with Streamlit's framework is fairly simple. To start, we'll import the library:
@@ -43,7 +45,7 @@ import streamlit as st
 
 ### Configure your app
 
-Streamlit has a respectable array of options when it comes to styling and configuring your app. In this case, we are going to create a title for our app, then set the it to a wide layout with the side bar expanded using the following syntax: 
+Streamlit has a respectable array of options when it comes to styling and configuring your app. In this case, we'll create a title for our app, then set it to a wide layout with the side bar expanded using the following syntax: 
 ```
 st.set_page_config(
     page_title="Sample Streamlit App",
