@@ -33,7 +33,7 @@ Opening your terminal of choice and entering a simple 'pip install' should do th
 ## Using Streamlit
 
 
-For the purpose of this tutorial, lets create a simple a app that determines whether an entered word is a palindrome or not.  We'll start by importing the streamlit library, configuring our app, then integrating our function with Streamlit's framework.
+While Streamlit is most powerful when deployed as an online app hosted in a repository like github, for the purpose of this tutorial, lets create a simple a app that runs locally and determines whether an entered word is a palindrome or not.  We'll start by importing the streamlit library, configuring our app, then integrating our function with Streamlit's framework.
 
 
 ### Import the Streamlit Library
@@ -54,5 +54,13 @@ st.set_page_config(
 )
 ```
 
+### Integrate 
 
+Now let's add our palindrome function before the main streamlit function for initialization purposes. We'll then add a basic text input function with the main function to pass a word into our palindrome function:
+
+```
+def main():
+
+  title = st.text_input('Movie title', 'Life of Brian')
+  st.write('The current movie title is', title)
 
