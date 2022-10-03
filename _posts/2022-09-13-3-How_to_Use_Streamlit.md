@@ -33,7 +33,7 @@ Opening your terminal of choice and entering a simple 'pip install' should do th
 ## Using Streamlit
 
 
-For the purpose of this tutorial, lets create a simple
+For the purpose of this tutorial, lets create a simple a app that determines whether an entered word is a palindrome or not.  We'll start by importing the streamlit library, configuring our app, then integrating our function with Streamlit's framework.
 
 
 ### Import the Streamlit Library
@@ -53,4 +53,6 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 ```
-I've had to make some emergency modifications to my blog. Please re-visit this on Monday to grade me properly. Sorry for the inconvenience!
+
+
+
