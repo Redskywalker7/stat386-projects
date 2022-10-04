@@ -8,7 +8,7 @@ image: /assets/images/streamlit_logo.jgg
 ---
 
 
-## How to Create a Simple Data Science App with Streamlit
+# How to Create a Simple Data Science App with Streamlit
 
 
 You’ve just created a stunning data science model. You’re proud of your work, but lobbing over the .py file just doesn’t seem like a worthy way of sharing it. If only there was a quick-to-learn web app that would do justice to your marvelous project... 
@@ -34,7 +34,7 @@ While Streamlit is most powerful when deployed as an online app hosted in a repo
 
  <br> 
 
-#### Installing Streamlit:
+### Installing Streamlit:
 
 
 Opening your terminal of choice and entering a simple 'pip install' should do the trick, though a more detailed installation guide can be found [on Streamlit's web page].(https://docs.streamlit.io/library/get-started/installation#install-streamlit-on-windows)
@@ -45,7 +45,7 @@ pip install streamlit
   <br> 
   
   
-#### Configure the app
+### Configure the app
 
 To start, we'll import the library:
 ```
@@ -64,7 +64,7 @@ st.set_page_config(
   <br> 
   
   
-#### Integrate 
+### Integrate 
 
 Now let's add our palindrome function before the main streamlit function for initialization purposes. 
 ```
@@ -82,7 +82,7 @@ def palindrome(word):
     return(result)
 ```
  <br> 
-#### Utilizing the Widgets
+### Utilizing the Widgets
 
 Lets add functionality to our app by referencing Streamlits helpful widget documentation. We'll add and conifigure a [test input box](https://docs.streamlit.io/library/api-reference/widgets/st.text_input) and frame a pretty [image](https://docs.streamlit.io/library/api-reference/media/st.image), within our main function, and configure the palindrome function to run based on the inputted text.
 
@@ -108,7 +108,7 @@ if __name__ == "__main__":
 
  <br> 
 
-#### Run the App!
+### Run the App!
 
 Once our .py is saved, we'll open up a new terminal window, navigate to the directory our file is found in and enter the following:
 ```
