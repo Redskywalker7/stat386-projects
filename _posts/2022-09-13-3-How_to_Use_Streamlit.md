@@ -7,9 +7,14 @@ description: Why Snowflake's High-Profile Acquisition Might be the Perfect Place
 image: /assets/images/streamlit_logo.jgg
 ---
 
+
+
+![image:]([https://streamlit.io/images/uploads/gallery/apps/nfl-receiver-dashboard.png](https://miro.medium.com/max/1400/0*6SYmw6X2cBxePujJ))
+
+
 ## How to Create a Simple Data Science App with Streamlit
 
-![image:](https://streamlit.io/images/uploads/gallery/apps/nfl-receiver-dashboard.png)
+
 
 You’ve just created a stunning data science model. You’re proud of your work, but lobbing over the .py file just doesn’t seem like a worthy way of sharing it. If only there was a quick-to-learn web app that would do justice to your marvelous project... 
 
