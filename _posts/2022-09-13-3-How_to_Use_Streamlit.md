@@ -101,49 +101,14 @@ def main():
 if __name__ == "__main__":
     main()
 ```
-
+![Foo](http://www.google.com.au/images/nav_logo7.png)](http://google.com.au/)
 ![image:](/assets/images/Palindrome Result.png)
 
 
-Here is our .py code in full:
+## Run the App!
+
+Once our .py is saved, we'll open up a new terminal window, navigate to the directory our file is found in and enter the following:
 ```
-import pandas as pd
-import streamlit as st
-
-st.set_page_config(
-    page_title="Sample Streamlit App",
-    layout="wide",
-    initial_sidebar_state="expanded",
-)
-
-def palindrome(word):
-    word = word.replace(" ","")
-    x = 0
-    result = "Is Not Palindrome"
-    if len(word)%2 != 0:
-        result = "Is Palindrome"
-        while x != (len(word)-1-x):
-            if word[x] != word[(len(word)-1-x)]:
-                result = "Is not palindrome"
-                break
-            x += 1          
-    return(result)
-
-image = 'https://media.istockphoto.com/photos/beautiful-sunrise-over-the-sea-picture-id610041376?k=20&m=610041376&s=612x612&w=0&h=JoEPWYoq1-FN5ANIQHNNdI2XrRDYnPCUWuLOHMrgLnE='
-
-def main():
-    st.title('The Palindrome Test')
-    st.image(image,caption = 'Where will you find YOUR next palindrome?')
-    print(palindrome('Hi there'))
-    text_input = st.text_input(
-        "Welcome to the Palindrome Test",
-        placeholder='Enter word here',
-    )
-
-    if text_input:
-        st.metric(label="Result of Palindrome Test: ", value=palindrome(text_input))   
-    
-if __name__ == "__main__":
-    main()
+streamlit run streamlit_app.py
 ```    
 
