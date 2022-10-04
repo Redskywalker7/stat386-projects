@@ -121,5 +121,9 @@ This should produce the following:
 
 <br> 
 
-Happy app-making! Once you feel comfortable creating an app locally, deploying your app online is the next step. Thankfully, [Streamlit's webpage](https://docs.streamlit.io/) is awash with many helpful tips, cheatsheets and guides. There is no going back now, so happing app-baking!
+Horray!
+
+Once you feel comfortable creating an app locally, deploying your app online is the next natural step. Thankfully, [Streamlit's webpage](https://docs.streamlit.io/) is awash with many helpful tips, cheatsheets and guides. 
+
+There is no going back now, so happing app-baking!
 
