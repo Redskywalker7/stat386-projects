@@ -60,14 +60,7 @@ st.set_page_config(
 
 ### Integrate 
 
-Now let's add our palindrome function before the main streamlit function for initialization purposes. We'll then add a basic text input function with the main function to pass a word into our palindrome function:
-
-
-
-### Utilizing the Widgets
-
-Lets add functionality to our app by referencing Streamlits helpful widget documentation. We'll add and conifigure a [test input box](https://docs.streamlit.io/library/api-reference/widgets/st.text_input) and frame a pretty [image](https://docs.streamlit.io/library/api-reference/media/st.image), within our main function, and configure the palindrome function to run based on the inputted text.
-
+Now let's add our palindrome function before the main streamlit function for initialization purposes. 
 ```
 def palindrome(word):
     word = word.replace(" ","")
@@ -81,7 +74,16 @@ def palindrome(word):
                 break
             x += 1          
     return(result)
+```
 
+
+
+### Utilizing the Widgets
+
+Lets add functionality to our app by referencing Streamlits helpful widget documentation. We'll add and conifigure a [test input box](https://docs.streamlit.io/library/api-reference/widgets/st.text_input) and frame a pretty [image](https://docs.streamlit.io/library/api-reference/media/st.image), within our main function, and configure the palindrome function to run based on the inputted text.
+
+
+```
 image = 'https://media.istockphoto.com/photos/beautiful-sunrise-over-the-sea-picture-id610041376?k=20&m=610041376&s=612x612&w=0&h=JoEPWYoq1-FN5ANIQHNNdI2XrRDYnPCUWuLOHMrgLnE='
 
 def main():
