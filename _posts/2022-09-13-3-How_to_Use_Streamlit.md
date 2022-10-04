@@ -4,7 +4,7 @@ title:  "How to Create a Simple Data Science App with Streamlit"
 date:   2022-09-22
 author: "Luke McDowell"
 description: Using one of the easiest web app tools to show off your data creations
-image: /assets/images/streamlit_logo.jpg
+image: /assets/images/streamlit_logo.png
 ---
 
 
