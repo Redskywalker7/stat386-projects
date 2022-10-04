@@ -3,8 +3,8 @@ layout: post
 title:  "How to Create a Simple Data Science App with Streamlit"
 date:   2022-09-22
 author: "Luke McDowell"
-description: Why Snowflake's High-Profile Acquisition Might be the Perfect Place to Deploy your Project.
-image: /assets/images/streamlit_logo.jgg
+description: Using one of the easiest web app tools to show off your data creations
+image: /assets/images/streamlit_logo.jpg
 ---
 
 
