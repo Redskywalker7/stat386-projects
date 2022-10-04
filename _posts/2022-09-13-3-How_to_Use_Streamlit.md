@@ -101,8 +101,8 @@ def main():
 if __name__ == "__main__":
     main()
 ```
-![Foo](http://www.google.com.au/images/nav_logo7.png)](http://google.com.au/)
-![image:](https://i.ibb.co/c8zy0d1/Palindrome-Result.png)
+
+
 
 
 ## Run the App!
@@ -111,4 +111,8 @@ Once our .py is saved, we'll open up a new terminal window, navigate to the dire
 ```
 streamlit run streamlit_app.py
 ```    
+
+This should produce the following:
+
+![image:](https://i.ibb.co/c8zy0d1/Palindrome-Result.png)
 
