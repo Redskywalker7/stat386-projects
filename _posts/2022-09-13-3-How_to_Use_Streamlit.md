@@ -27,7 +27,7 @@ pip install streamlit
 ```
 Opening your terminal of choice and entering a simple 'pip install' should do the trick, though a more detailed installation guide can be found [on Streamlit's web page](https://docs.streamlit.io/library/get-started/installation#install-streamlit-on-windows)
   
-  
+![image:](/assets/images/Palindrome Result.png) 
   
   
 ## Using Streamlit
@@ -59,6 +59,8 @@ Now let's add our palindrome function before the main streamlit function for ini
 
 
 ![image:](/assets/images/Palindrome Result.png)
+
+
 Here is our .py code in full:
 ```
 import pandas as pd
