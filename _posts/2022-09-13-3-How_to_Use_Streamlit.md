@@ -102,7 +102,7 @@ if __name__ == "__main__":
     main()
 ```
 ![Foo](http://www.google.com.au/images/nav_logo7.png)](http://google.com.au/)
-![image:](https://ibb.co/JpXcVPK)
+![image:](https://i.ibb.co/c8zy0d1/Palindrome-Result.png)
 
 
 ## Run the App!
