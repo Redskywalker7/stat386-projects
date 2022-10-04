@@ -19,33 +19,31 @@ You’ve just created a stunning data science model. You’re proud of your work
 
 
 ## Why Streamlit?
-Streamlit is an open-source Python library compatible with major Python libraries like Matplotlib, Plotly, Pandas, numpy, scikit-learn, etc. While Streamlit may not be the most widely used web app framework, it is definitely one of the easiest and quickest to learn. Snowflake seems to have seen some potential in it too, as the cloud company [recently acquired Streamlit for $800m](https://techcrunch.com/2022/03/02/snowflake-acquires-streamlit-for-800m-to-help-customers-build-data-based-apps/)
+Streamlit is an open-source Python library compatible with major Python libraries like Matplotlib, Plotly, Pandas, numpy, scikit-learn, etc. While Streamlit may not be the most widely used web app framework, it is definitely one of the easiest and quickest to learn. Snowflake seems to have seen some potential in it too, as the cloud company [recently acquired Streamlit for $800m](https://techcrunch.com/2022/03/02/snowflake-acquires-streamlit-for-800m-to-help-customers-build-data-based-apps/).
 
 If beautiful, easy-to-build and quick-to-deploy apps still aren't enough to entice you, Streamlit is also FREE to use.
 
 
 
-## Installing Streamlit:
+## Using Streamlit
 
 
-Opening your terminal of choice and entering a simple 'pip install' should do the trick, though a more detailed installation guide can be found [on Streamlit's web page](https://docs.streamlit.io/library/get-started/installation#install-streamlit-on-windows)
+While Streamlit is most powerful when deployed as an online app hosted in a repository like github, for the purpose of this tutorial lets create a simple app that runs locally and determines whether an entered word is a palindrome or not.  We'll start by installing and importing the streamlit library, configuring our app, then integrating our function with Streamlit's framework.
+
+
+
+### Installing Streamlit:
+
+
+Opening your terminal of choice and entering a simple 'pip install' should do the trick, though a more detailed installation guide can be found [on Streamlit's web page].(https://docs.streamlit.io/library/get-started/installation#install-streamlit-on-windows)
   
 ![image:](/assets/images/Palindrome Result.png) 
 ```
 pip install streamlit
 ```
 
-  
-  
-## Using Streamlit
 
-
-While Streamlit is most powerful when deployed as an online app hosted in a repository like github, for the purpose of this tutorial, lets create a simple a app that runs locally and determines whether an entered word is a palindrome or not.  We'll start by importing the streamlit library, configuring our app, then integrating our function with Streamlit's framework.
-
-
-
-
-### Configure your app
+### Configure the app
 
 To start, we'll import the library:
 ```
