@@ -16,18 +16,20 @@ You’ve just created a stunning data science model. You’re proud of your work
 
 
 ## Why Streamlit?
-Streamlit is an open-source Python library compatible with major Python libraries like Matplotlib, Plotly, Pandas, numpy, scikit-learn, etc that While Streamlit may not be the most widely used data web science app framework, it is definitely one of the easiest and quickest to learn. Snowflake seems to have seen some potential in it too, as the cloud company [recently acquired Streamlit for $800m](https://techcrunch.com/2022/03/02/snowflake-acquires-streamlit-for-800m-to-help-customers-build-data-based-apps/). If beautiful, easy-to-build and quick-to-deploy apps aren't enough to entice you, Streamlit is also FREE to use.
+Streamlit is an open-source Python library compatible with major Python libraries like Matplotlib, Plotly, Pandas, numpy, scikit-learn, etc. While Streamlit may not be the most widely used web app framework, it is definitely one of the easiest and quickest to learn. Snowflake seems to have seen some potential in it too, as the cloud company [recently acquired Streamlit for $800m](https://techcrunch.com/2022/03/02/snowflake-acquires-streamlit-for-800m-to-help-customers-build-data-based-apps/).If beautiful, easy-to-build and quick-to-deploy apps still aren't enough to entice you, Streamlit is also FREE to use.
 
 
 
 ## Installing Streamlit:
 
-```
-pip install streamlit
-```
+
 Opening your terminal of choice and entering a simple 'pip install' should do the trick, though a more detailed installation guide can be found [on Streamlit's web page](https://docs.streamlit.io/library/get-started/installation#install-streamlit-on-windows)
   
 ![image:](/assets/images/Palindrome Result.png) 
+```
+pip install streamlit
+```
+
   
   
 ## Using Streamlit
@@ -36,14 +38,15 @@ Opening your terminal of choice and entering a simple 'pip install' should do th
 While Streamlit is most powerful when deployed as an online app hosted in a repository like github, for the purpose of this tutorial, lets create a simple a app that runs locally and determines whether an entered word is a palindrome or not.  We'll start by importing the streamlit library, configuring our app, then integrating our function with Streamlit's framework.
 
 
-### Import the Streamlit Library
-Once Streamlit is installed, integrating your project with Streamlit's framework is fairly simple. To start, we'll import the library:
+
+
+### Configure your app
+
+To start, we'll import the library:
 ```
 import streamlit as st  
 ```
 
-
-### Configure your app
 
 Streamlit has a respectable array of options when it comes to styling and configuring your app. In this case, we'll create a title for our app, then set it to a wide layout with the side bar expanded using the following syntax: 
 ```
@@ -53,6 +56,8 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 ```
+
+
 ### Integrate 
 
 Now let's add our palindrome function before the main streamlit function for initialization purposes. We'll then add a basic text input function with the main function to pass a word into our palindrome function:
