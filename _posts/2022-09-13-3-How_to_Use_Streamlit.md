@@ -58,7 +58,7 @@ st.set_page_config(
 Now let's add our palindrome function before the main streamlit function for initialization purposes. We'll then add a basic text input function with the main function to pass a word into our palindrome function:
 
 
-![image:][/assets/images/Palindrome Result.png]
+![image:][/assets/images/Palindrome Result.jpg]
 Here is our .py code in full:
 ```
 import pandas as pd
