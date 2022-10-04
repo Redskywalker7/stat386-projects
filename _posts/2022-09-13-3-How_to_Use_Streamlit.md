@@ -9,7 +9,7 @@ image: /assets/images/streamlit_logo.jgg
 
 
 
-![image:]([https://streamlit.io/images/uploads/gallery/apps/nfl-receiver-dashboard.png](https://miro.medium.com/max/1400/0*6SYmw6X2cBxePujJ))
+![image:](https://miro.medium.com/max/1400/0*6SYmw6X2cBxePujJ)
 
 
 ## How to Create a Simple Data Science App with Streamlit
