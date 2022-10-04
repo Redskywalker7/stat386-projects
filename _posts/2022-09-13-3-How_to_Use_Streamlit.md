@@ -44,7 +44,7 @@ pip install streamlit
   <br> 
   
   
-### Configure the app
+### Configuring the App:
 
 To start, we'll import the library:
 ```
@@ -63,7 +63,7 @@ st.set_page_config(
   <br> 
   
   
-### Integrate 
+### Integrating our Work:
 
 Now let's add our palindrome function before the main streamlit function for initialization purposes. 
 ```
@@ -82,7 +82,7 @@ def palindrome(word):
 ```
  <br> 
  
-### Utilizing the Widgets
+### Utilizing the Widgets:
 
 Lets add functionality to our app by referencing Streamlits helpful widget documentation. We'll add and conifigure a [test input box](https://docs.streamlit.io/library/api-reference/widgets/st.text_input) and frame a pretty [image](https://docs.streamlit.io/library/api-reference/media/st.image), within our main function, and configure the palindrome function to run based on the inputted text.
 
@@ -108,7 +108,7 @@ if __name__ == "__main__":
 
  <br> 
 
-### Run the App!
+### Running the App:
 
 Once our .py is saved, we'll open up a new terminal window, navigate to the directory our file is found in and enter the following:
 ```
