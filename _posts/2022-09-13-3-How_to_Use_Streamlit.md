@@ -25,16 +25,16 @@ Streamlit is an open-source Python library compatible with major Python librarie
 If beautiful, easy-to-build and quick-to-deploy apps still aren't enough to entice you, Streamlit is also FREE to use.
 
 
-
-
+ ( <br> )
+ ( <br> )
 ## Using Streamlit
 
 
 
 While Streamlit is most powerful when deployed as an online app hosted in a repository like github, for the purpose of this tutorial lets create a simple app that runs locally and determines whether an entered word is a palindrome or not.  We'll start by installing and importing the streamlit library, configuring our app, then integrating our function with Streamlit's framework.
 
-
-
+ ( <br> )
+ ( <br> )
 
 #### Installing Streamlit:
 
@@ -44,8 +44,8 @@ Opening your terminal of choice and entering a simple 'pip install' should do th
 ```
 pip install streamlit
 ```
-
-
+ ( <br> )
+ ( <br> )
 #### Configure the app
 
 To start, we'll import the library:
@@ -62,8 +62,8 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 ```
-
-
+ ( <br> )
+ ( <br> )
 #### Integrate 
 
 Now let's add our palindrome function before the main streamlit function for initialization purposes. 
@@ -81,9 +81,9 @@ def palindrome(word):
             x += 1          
     return(result)
 ```
+ ( <br> )
 
-
-
+ ( <br> )
 #### Utilizing the Widgets
 
 Lets add functionality to our app by referencing Streamlits helpful widget documentation. We'll add and conifigure a [test input box](https://docs.streamlit.io/library/api-reference/widgets/st.text_input) and frame a pretty [image](https://docs.streamlit.io/library/api-reference/media/st.image), within our main function, and configure the palindrome function to run based on the inputted text.
@@ -108,8 +108,8 @@ if __name__ == "__main__":
     main()
 ```
 
-
-
+ ( <br> )
+ ( <br> )
 
 #### Run the App!
 
