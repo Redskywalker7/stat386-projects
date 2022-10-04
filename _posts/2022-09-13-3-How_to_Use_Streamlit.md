@@ -82,7 +82,7 @@ def palindrome(word):
  
 ### Utilizing the Widgets:
 
-Lets add functionality to our app by referencing Streamlits helpful widget documentation. Within our main(): function, lets add and conifigure a [text input box](https://docs.streamlit.io/library/api-reference/widgets/st.text_input) and hang a pretty [image](https://docs.streamlit.io/library/api-reference/media/st.image). 
+Lets add functionality to our app by referencing Streamlits helpful widget documentation. Within our main(): function, lets add and configure a title, [text input box](https://docs.streamlit.io/library/api-reference/widgets/st.text_input), and hang a pretty [image](https://docs.streamlit.io/library/api-reference/media/st.image). 
 
 The app will beckon us to enter some text with which our palindrome app with return it's result in the style of a Streamlit metric. All our code should be encased within Streamlits framework as set out below:
 
