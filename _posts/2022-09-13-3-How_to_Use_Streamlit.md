@@ -36,7 +36,7 @@ While Streamlit is most powerful when deployed as an online app hosted in a repo
 
 
 
-### Installing Streamlit:
+#### Installing Streamlit:
 
 
 Opening your terminal of choice and entering a simple 'pip install' should do the trick, though a more detailed installation guide can be found [on Streamlit's web page].(https://docs.streamlit.io/library/get-started/installation#install-streamlit-on-windows)
@@ -46,7 +46,7 @@ pip install streamlit
 ```
 
 
-### Configure the app
+#### Configure the app
 
 To start, we'll import the library:
 ```
@@ -64,7 +64,7 @@ st.set_page_config(
 ```
 
 
-### Integrate 
+#### Integrate 
 
 Now let's add our palindrome function before the main streamlit function for initialization purposes. 
 ```
@@ -84,7 +84,7 @@ def palindrome(word):
 
 
 
-### Utilizing the Widgets
+#### Utilizing the Widgets
 
 Lets add functionality to our app by referencing Streamlits helpful widget documentation. We'll add and conifigure a [test input box](https://docs.streamlit.io/library/api-reference/widgets/st.text_input) and frame a pretty [image](https://docs.streamlit.io/library/api-reference/media/st.image), within our main function, and configure the palindrome function to run based on the inputted text.
 
@@ -111,7 +111,7 @@ if __name__ == "__main__":
 
 
 
-## Run the App!
+#### Run the App!
 
 Once our .py is saved, we'll open up a new terminal window, navigate to the directory our file is found in and enter the following:
 ```
