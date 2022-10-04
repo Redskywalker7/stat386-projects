@@ -110,7 +110,7 @@ if __name__ == "__main__":
 
 ### Running the App:
 
-Once our .py is saved, we'll open up a new terminal window, navigate to the directory our file is found in and enter the following:
+Once our .py is finalized, we'll save the file as 'streamlit_app.py' and save it to our local directory of choice. We'll then open up a new terminal window, navigate to the directory our file is found in and enter the following:
 ```
 streamlit run streamlit_app.py
 ```    
