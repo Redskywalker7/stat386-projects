@@ -119,3 +119,7 @@ This should produce the following:
 
 ![image:](https://i.ibb.co/c8zy0d1/Palindrome-Result.png)
 
+<br> 
+
+Happy app-making! Once you feel comfortable creating an app locally, deploying your app online is the next step. Thankfully, [Streamlit's webpage](https://docs.streamlit.io/) is awash with many helpful tips, cheatsheets and guides. There is no going back now, so happing app-baking!
+
