@@ -9,7 +9,7 @@ image: /assets/images/Streamlit.jgg
 
 ## How to Create a Simple Data Science App with Streamlit
 
-![image:](/assets/images/app1.png)
+![image:](/assets/images/streamlit_logo.png)
 
 You’ve just created a stunning data science model. You’re proud of your work, but lobbing over the .py file just doesn’t seem like a worthy way of sharing it. If only there was a quick-to-learn web app that would do justice to your marvelous project... 
 
