@@ -17,8 +17,6 @@ You’ve just created a stunning data science model. You’re proud of your work
 ![image:](https://miro.medium.com/max/1400/0*6SYmw6X2cBxePujJ)
 
 
-
-
 ## Why Streamlit?
 Streamlit is an open-source Python library compatible with major Python libraries like Matplotlib, Plotly, Pandas, numpy, scikit-learn, etc. While Streamlit may not be the most widely used web app framework, it is definitely one of the easiest and quickest to learn. Snowflake seems to have seen some potential in it too, as the cloud company [recently acquired Streamlit for $800m](https://techcrunch.com/2022/03/02/snowflake-acquires-streamlit-for-800m-to-help-customers-build-data-based-apps/).
 
@@ -26,6 +24,7 @@ If beautiful, easy-to-build and quick-to-deploy apps still aren't enough to enti
 
 
   <br> 
+  
 ## Using Streamlit
 
 
@@ -82,6 +81,7 @@ def palindrome(word):
     return(result)
 ```
  <br> 
+ 
 ### Utilizing the Widgets
 
 Lets add functionality to our app by referencing Streamlits helpful widget documentation. We'll add and conifigure a [test input box](https://docs.streamlit.io/library/api-reference/widgets/st.text_input) and frame a pretty [image](https://docs.streamlit.io/library/api-reference/media/st.image), within our main function, and configure the palindrome function to run based on the inputted text.
