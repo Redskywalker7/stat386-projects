@@ -8,16 +8,20 @@ image: /assets/images/Pokedex.png
 ---
 
 
-So you wanna be a Pokemon Master? How could you possibly claim that illustrious title without your own trusty Pokedex - every respected trainer's choice [Pokemon indexing tool](https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9dex). 
+So you wanna be a Pokemon Master? Well, how are you going to catch Pokemon without your own trusty Pokedex - every respected trainer's favourite [Pokemon indexing tool](https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9dex). Unfortunately, Professor Oak isn't around to simply hand us a pre-built Pokedex. Luckily, we have access to one of the easiest-to-use APIs (Application Programming Interface) to help us build our own. 
 
 
 ![image:](https://assets.pokemon.com/assets/cms2/img/watch-pokemon-tv/seasons/season01/season01_ep42_ss01.jpg)
 
 
 ## PokeAPI
-Unfortunately, we don't have Professor Oak to hand us our pre-built Pokedex, but luckily, we have access to one of the easiest-to-use APIs (Application Programming Interface) around in PokeAPI. PokeAPI utilizes code from Pokemon videogame ROMs as well as other sources to provide us with a way of accessing detailed information on all the diverse creatures across the Pokemon Universe.
+PokeAPI is a RESTful API that utilizes code from Pokemon videogame ROMs as well as other sources to provide us with an east means of accessing detailed information on the many cute and fearsome creatures across the Pokemon Universe. As a consumption-only API, No tokens are necessary for interaction, and pulling data is as easy as running a get request, with which we receive data in json format. 
 
-For purposes of our Pokedex creation, we will be pulling data from the first two generation of Pokemon from the late 90's. This equates to the first 252 Pokemon introduced. We'll pull data on each Pokemon's HP (Hit Points), Weight, Height, Type and Experience, and put everything into a neat pandas dataframe. We'll then place our dataframe within the Streamlit Framework to create a basic Pokedex.
+  <br> 
+  
+## Creating a Pokemon Pandas DataFrame
+
+For purposes of our Pokedex creation, lets gather data from the first two generations of Pokemon from the late 90's. This equates to the first 252 Pokemon. We'll pull data on each Pokemon's HP (Hit Points), Weight, Height, Type and Experience, and organize it into a neat pandas dataframe. Then, we'll intergrate our dataframe within the Streamlit Framework to create a basic Pokedex.
 
 
   <br> 
