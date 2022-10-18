@@ -4,7 +4,7 @@ title:  "How to Create a Simple Pokedex with PokeAPI"
 date:   2022-10-18
 author: "Luke McDowell"
 description: Using one of the easiest APIs around to catch 'em all.
-image: /assets/images/Pokedex.png
+image: blob/main/assets/images/Pokedex.png
 ---
 
 
@@ -13,7 +13,7 @@ So you wanna be a Pokemon Master? Well, you won't get very far without a Pokedex
 ![image:](https://github.com/Redskywalker7/stat386-projects/blob/main/assets/Jigglypuff.png?raw=true)
 
 
-## PokeAPI
+# PokeAPI
 PokeAPI is a RESTful API that utilizes code from Pokemon videogame ROMs as well as other sources to provide us with an easy means of accessing detailed information on the many cute and fearsome creatures across the Pokemon Universe. As a consumption-only API, No tokens are necessary for interaction, and pulling data is as easy as running a get request, with which we receive data in json format. 
 
   <br> 
@@ -32,7 +32,32 @@ import streamlit as st
 
   <br> 
   
-## Using Streamlit
+Let's use lists to store each data item, before creating a dictionary that we will feed into a pandas dataframe. We'll start by initializing the lists, then we'll use a for loop to request data on Pokemons 1-252 through the PokeAPI. Each request returns json-formatted data that we can traverse to pull the data items we want.    
+
+```
+# Initialize the lists we will use to place our variables in
+Name = []
+Primary_Type = []
+Weight = []
+Height = []
+HP = []
+Experience = []
+
+# Loop through Pokemons 1 - 252 to request and append the gathered data to our lists
+for x in range(1,252):
+    url = "https://pokeapi.co/api/v2/pokemon/" + str(x)
+    res = requests.get(url)
+    Name.append(res.json()['name'])
+    Primary_Type.append(res.json()['types'][0]['type']['name'])
+    Weight.append(res.json()['weight'])
+    Height.append(res.json()['height'])
+    HP.append(res.json()['stats'][0]['base_stat'])
+    Experience.append(res.json()['base_experience'])
+```
+
+  <br> 
+  
+# Using Streamlit
 
 
 
