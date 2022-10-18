@@ -14,10 +14,10 @@ So you wanna be a Pokemon Master? How could you possibly claim that illustrious 
 ![image:](https://assets.pokemon.com/assets/cms2/img/watch-pokemon-tv/seasons/season01/season01_ep42_ss01.jpg)
 
 
-## Why Streamlit?
-Streamlit is an open-source Python library compatible with major Python libraries like Matplotlib, Plotly, Pandas, numpy, scikit-learn, etc. While Streamlit may not be the most widely used web app framework, it is definitely one of the easiest and quickest to learn. Snowflake seems to have seen some potential in it too, as the cloud company [recently acquired Streamlit for $800m](https://techcrunch.com/2022/03/02/snowflake-acquires-streamlit-for-800m-to-help-customers-build-data-based-apps/).
+## PokeAPI
+Unfortunately, we don't have Professor Oak to hand us our pre-built Pokedex, but luckily, we have access to one of the easiest-to-use APIs (Application Programming Interface) around in PokeAPI. PokeAPI utilizes code from Pokemon videogame ROMs as well as other sources to provide us with a way of accessing detailed information on all the diverse creatures across the Pokemon Universe.
 
-If beautiful, easy-to-build and quick-to-deploy apps still aren't enough to entice you, Streamlit is also FREE to use.
+For purposes of our Pokedex creation, we will be pulling data from the first two generation of Pokemon from the late 90's. This equates to the first 252 Pokemon introduced. We'll pull data on each Pokemon's HP (Hit Points), Weight, Height, Type and Experience, and put everything into a neat pandas dataframe. We'll then place our dataframe within the Streamlit Framework to create a basic Pokedex.
 
 
   <br> 
