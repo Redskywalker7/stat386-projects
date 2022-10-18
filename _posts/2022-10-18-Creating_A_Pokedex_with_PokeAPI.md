@@ -14,7 +14,7 @@ So you wanna be a Pokemon Master? Well, you won't get very far without a Pokedex
 
 
 ## PokeAPI
-PokeAPI is a RESTful API that utilizes code from Pokemon videogame ROMs as well as other sources to provide us with an east means of accessing detailed information on the many cute and fearsome creatures across the Pokemon Universe. As a consumption-only API, No tokens are necessary for interaction, and pulling data is as easy as running a get request, with which we receive data in json format. 
+PokeAPI is a RESTful API that utilizes code from Pokemon videogame ROMs as well as other sources to provide us with an easy means of accessing detailed information on the many cute and fearsome creatures across the Pokemon Universe. As a consumption-only API, No tokens are necessary for interaction, and pulling data is as easy as running a get request, with which we receive data in json format. 
 
   <br> 
   
