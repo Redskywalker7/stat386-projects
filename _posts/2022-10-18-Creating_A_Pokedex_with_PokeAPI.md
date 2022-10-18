@@ -20,8 +20,6 @@ PokeAPI is a RESTful API that utilizes code from Pokemon videogame ROMs as well 
   
 ## Creating a Pokemon Dataframe with Pandas and PokeAPI
 
-!![image](https://cdn-s-www.dna.fr/images/B5EBD222-404B-4B97-A204-C18D5303A497/NW_raw/des-pokemons-de-la-premiere-generation-dr-1614337670.jpg)
-
 For purposes of our Pokedex creation, lets gather data from the first two generations of Pokemon from the late 90's. This equates to the first 252 Pokemon. We'll pull data on each Pokemon's HP (Hit Points), Weight, Height, Type and Experience, and organize it into a neat pandas dataframe. Then, we'll intergrate our dataframe within the [Streamlit Framework](https://streamlit.io/) to create a basic Pokedex.
 
 Let's start by importing the libraries we will. If any of the libraries below aren't installed on your system, a quick google search for the relevant installation guide will come in handy.
