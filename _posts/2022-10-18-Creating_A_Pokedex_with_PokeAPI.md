@@ -4,7 +4,7 @@ title:  "How to Create a Simple Pokedex with PokeAPI"
 date:   2022-10-18
 author: "Luke McDowell"
 description: Using one of the easiest APIs around to catch 'em all.
-#image: blob/main/assets/images/Pokedex.png
+#image: [https://cdn-s-www.dna.fr/images/B5EBD222-404B-4B97-A204-C18D5303A497/NW_raw/des-pokemons-de-la-premiere-generation-dr-1614337670.jpg]
 ---
 ![image:](https://github.com/Redskywalker7/stat386-projects/blob/main/assets/Jigglypuff.png?raw=true)
 
@@ -20,7 +20,7 @@ PokeAPI is a RESTful API that utilizes code from Pokemon videogame ROMs as well 
   
 ## Creating a Pokemon Dataframe with Pandas and PokeAPI
 
-![image](https://cdn-s-www.dna.fr/images/B5EBD222-404B-4B97-A204-C18D5303A497/NW_raw/des-pokemons-de-la-premiere-generation-dr-1614337670.jpg)
+!![image](https://cdn-s-www.dna.fr/images/B5EBD222-404B-4B97-A204-C18D5303A497/NW_raw/des-pokemons-de-la-premiere-generation-dr-1614337670.jpg)
 
 For purposes of our Pokedex creation, lets gather data from the first two generations of Pokemon from the late 90's. This equates to the first 252 Pokemon. We'll pull data on each Pokemon's HP (Hit Points), Weight, Height, Type and Experience, and organize it into a neat pandas dataframe. Then, we'll intergrate our dataframe within the [Streamlit Framework](https://streamlit.io/) to create a basic Pokedex.
 
