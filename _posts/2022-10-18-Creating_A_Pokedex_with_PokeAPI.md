@@ -4,7 +4,7 @@ title:  "How to Create a Simple Pokedex with PokeAPI"
 date:   2022-10-18
 author: "Luke McDowell"
 description: Using one of the easiest APIs around to catch 'em all.
-#image: [https://cdn-s-www.dna.fr/images/B5EBD222-404B-4B97-A204-C18D5303A497/NW_raw/des-pokemons-de-la-premiere-generation-dr-1614337670.jpg]
+#image: /assets/images/Pokedex.png
 ---
 ![image:](https://github.com/Redskywalker7/stat386-projects/blob/main/assets/Jigglypuff.png?raw=true)
 
