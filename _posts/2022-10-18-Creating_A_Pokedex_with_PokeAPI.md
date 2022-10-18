@@ -10,7 +10,7 @@ image: /assets/images/Pokedex.png
 
 So you wanna be a Pokemon Master? Well, how are you going to catch Pokemon without your own trusty Pokedex - every respected trainer's favourite [Pokemon indexing tool](https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9dex). Unfortunately, Professor Oak isn't around to simply hand us a pre-built Pokedex. Luckily, we have access to one of the easiest-to-use APIs (Application Programming Interface) to help us build our own. 
 
-
+!image[image:](https://github.com/Redskywalker7/stat386-projects/blob/main/assets/Jigglypuff.png?raw=true)
 ![image:](https://assets.pokemon.com/assets/cms2/img/watch-pokemon-tv/seasons/season01/season01_ep42_ss01.jpg)
 
 
