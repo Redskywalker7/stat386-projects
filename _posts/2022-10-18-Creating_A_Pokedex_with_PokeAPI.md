@@ -8,7 +8,7 @@ image: /assets/images/Pokedex.png
 ---
 
 
-So you wanna be a Pokemon Master? Well, how are you going to catch Pokemon without your own trusty Pokedex - every respected trainer's favourite [Pokemon indexing tool](https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9dex). Unfortunately, Professor Oak isn't around to simply hand us a pre-built Pokedex. Luckily, we have access to one of the easiest-to-use APIs (Application Programming Interface) to help us build our own. 
+So you wanna be a Pokemon Master? Well, how are you going to catch Pokemon without your own trusty Pokedex - every respected trainer's favourite [Pokemon indexing tool](https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9dex). Unfortunately, Professor Oak isn't around to hand us a pre-built Pokedex, so our only option is to build one ourselves. Luckily, we have access to one of the easiest-to-use APIs (Application Programming Interface) available to help us do just that. 
 
 ![image:](https://github.com/Redskywalker7/stat386-projects/blob/main/assets/Jigglypuff.png?raw=true)
 
@@ -20,7 +20,7 @@ PokeAPI is a RESTful API that utilizes code from Pokemon videogame ROMs as well 
   
 ## Creating a Pokemon Pandas DataFrame
 
-For purposes of our Pokedex creation, lets gather data from the first two generations of Pokemon from the late 90's. This equates to the first 252 Pokemon. We'll pull data on each Pokemon's HP (Hit Points), Weight, Height, Type and Experience, and organize it into a neat pandas dataframe. Then, we'll intergrate our dataframe within the Streamlit Framework to create a basic Pokedex.
+For purposes of our Pokedex creation, lets gather data from the first two generations of Pokemon from the late 90's. This equates to the first 252 Pokemon. We'll pull data on each Pokemon's HP (Hit Points), Weight, Height, Type and Experience, and organize it into a neat pandas dataframe. Then, we'll intergrate our dataframe within the [Streamlit Framework](https://streamlit.io/) to create a basic Pokedex.
 
 
   <br> 
