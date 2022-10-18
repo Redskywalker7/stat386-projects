@@ -11,7 +11,7 @@ image: /assets/images/Pokedex.png
 So you wanna be a Pokemon Master? How could you possibly claim that illustrious title without your own trusty Pokedex - every respected trainer's choice [Pokemon indexing tool](https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9dex). 
 
 
-![image:](https://miro.medium.com/max/1400/0*6SYmw6X2cBxePujJ)
+![image:](https://assets.pokemon.com/assets/cms2/img/watch-pokemon-tv/seasons/season01/season01_ep42_ss01.jpg)
 
 
 ## Why Streamlit?
