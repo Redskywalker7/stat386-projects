@@ -8,8 +8,7 @@ image: /assets/images/Pokedex.png
 ---
 
 
-
-You’ve just created a stunning data science model. You’re proud of your work, but lobbing over the .py file just doesn’t seem like a worthy way of sharing it. If only there was a quick-to-learn web app that would do justice to your marvelous project... 
+So you wanna be a Pokemon Master? How could you possibly claim that illustrious title without your own trusty Pokedex - every respected trainer's choice [Pokemon indexing tool](https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9dex). 
 
 
 ![image:](https://miro.medium.com/max/1400/0*6SYmw6X2cBxePujJ)
