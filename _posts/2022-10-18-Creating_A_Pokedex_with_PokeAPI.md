@@ -74,7 +74,6 @@ Poke_Dict = {
 }
 Pokemon_DF = pd.DataFrame(Poke_Dict)
 Pokemon_DF.index += 1 
-Pokemon_DF
 ```
 
   <br> 
