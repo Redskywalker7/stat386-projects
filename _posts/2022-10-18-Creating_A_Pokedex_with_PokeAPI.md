@@ -6,7 +6,7 @@ author: "Luke McDowell"
 description: Using one of the easiest APIs around to catch 'em all.
 image: /assets/images/Pokemon.png
 ---
-![image:](https://github.com/Redskywalker7/stat386-projects/blob/main/assets/Jigglypuff.png?raw=true)
+
 
 So you wanna be a Pokemon Master? Well, you won't get very far without a Pokedex - every respected trainer's favourite [Pokemon indexing tool](https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9dex). Unfortunately, Professor Oak isn't around to hand them out, so our only option is to build one ourselves. Luckily, we have access to one of the easiest-to-use APIs (Application Programming Interface) available to help us do just that. 
 
@@ -75,8 +75,14 @@ Pokemon_DF.index += 1
   <br> 
 
 ## Using Streamlit to Create a Pokedex!
-Now that we are able to pull Pokemon data from the PokeAPI into a pandas dataframe, our next step is to turn that data into a Pokedex! I've decided to use the Streamlit app framework to build mine in, but there are endless app frameworks available online with which incredible Pokedexes can be made. If you'd also like to use Streamlit to build your Pokedex app, then instructions on how to get started can be found [here](https://redskywalker7.github.io/stat386-projects/2022/09/22/How_to_Use_Streamlit.html).
+![image:](https://github.com/Redskywalker7/stat386-projects/blob/main/assets/Jigglypuff.png?raw=true)
+Now that we are able to pull Pokemon data from the PokeAPI into a pandas dataframe, our next step is to turn that data into a Pokedex! I've decided to use the Streamlit app framework to build mine in, but there are endless app frameworks available online with which incredible Pokedexes can be made. If you'd also like to use Streamlit to build your Pokedex app, then instructions on how to get started can be found [here](https://redskywalker7.github.io/stat386-projects/2022/09/22/How_to_Use_Streamlit.html). 
+
+Most of the work involved with this Pokedex involves what we've already done in the first half of this tutorial - connect to the PokeAPI and pull the data we are searching for. To create my Pokedex, I re-arranged the script above to take text inputs from the streamlit box and return information on the searched Pokemon. I've included an IF statement that returns an error code if the request status isn't 200. 
+
+# [Click Here to See My Pokedex App!](https://redskywalker7-stat386-projects-pokedex-q0yt5b.streamlitapp.com/)
+
 
   <br> 
   
-# [Click Here to See My Pokedex App!](https://redskywalker7-stat386-projects-pokedex-q0yt5b.streamlitapp.com/)
+Now go forth, Pokemon trainer! With access to the most comprehensive Pokemon database around, you are now ready to create your own Pokedex. I challenge you to create an even better Pokedex than mine, and to use the PokeAPI as a step toward other APIs. 
