@@ -17,8 +17,6 @@ So you wanna be a Pokemon Master? Well, you won't get very far without a Pokedex
 PokeAPI is a RESTful API that utilizes code from Pokemon videogame ROMs as well as other sources to provide us with an easy means of accessing detailed information on the many cute and fearsome creatures across the Pokemon Universe. As a consumption-only API, No tokens are necessary for interaction, and pulling data is as easy as running a get request, with which we receive data in json format. 
 
   <br> 
-  
-## Creating a Pokemon Dataframe with Pandas and PokeAPI
 
 For purposes of our Pokedex creation, lets gather data from the first two generations of Pokemon from the late 90's. This equates to the first 252 Pokemon. We'll pull data on each Pokemon's HP (Hit Points), Weight, Height, Type and Experience, and organize it into a neat pandas dataframe. Then, we'll intergrate our dataframe within the [Streamlit Framework](https://streamlit.io/) to create a basic Pokedex.
 
