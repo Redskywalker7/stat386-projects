@@ -2,7 +2,7 @@ import pandas as pd
 import requests
 import streamlit as st
 
-image_1 = 'https://github.com/Redskywalker7/stat386-projects/blob/main/assets/Jigglypuff.png?raw=true'
+image_1 = 'https://github.com/Redskywalker7/stat386-projects/blob/main/assets/header.png?raw=true'
 
 def PokeInfo(entry):
     url = "https://pokeapi.co/api/v2/pokemon/" + str(entry)
