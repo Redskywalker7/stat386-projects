@@ -10,7 +10,7 @@ def PokeInfo(entry):
     return res
 
 def pokedex(entry):
-    res = PokeInfo(lower(entry))
+    res = PokeInfo(str.lower(entry))
     Name = res.json()['name']
     Primary_Type = res.json()['types'][0]['type']['name']
     Weight = res.json()['weight']
@@ -21,7 +21,7 @@ def pokedex(entry):
     return Pokemon_DF
 
 def image(entry):
-    res = PokeInfo(lower(entry))
+    res = PokeInfo(str.lower(entry))
     image = res.json()['sprites']['front_default']
     return image
 
