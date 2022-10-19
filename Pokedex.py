@@ -36,7 +36,8 @@ def main():
         if res.status_code != 200:
             st.write('Pokemon Not Found. Check whether your spelling or number is correct')
             exit()
-        else DF = pokedex(res)
+        else: 
+            DF = pokedex(res)
             container1 = st.container()
             col1,col2,col3 = st.columns([3,2,2])
             with container1:
