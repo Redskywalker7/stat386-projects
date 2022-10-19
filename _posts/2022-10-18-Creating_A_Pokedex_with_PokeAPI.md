@@ -77,21 +77,8 @@ Pokemon_DF.index += 1
   <br> 
 
 ## Using Streamlit to Create a Pokedex!
+Now that we are able to pull Pokemon data from the PokeAPI into a pandas dataframe, our next step is to turn that data into a Pokedex! I've decided to use the Streamlit app framework to build mine in, but there are endless app frameworks available online with which incredible Pokedexes can be made. If you'd also like to use Streamlit to build your Pokedex app, then instructions on how to get started can be found [here](https://redskywalker7.github.io/stat386-projects/2022/09/22/How_to_Use_Streamlit.html).
 
-
-
-While Streamlit is most powerful when deployed as an online app hosted in a repository like github, for the purpose of this tutorial lets create a simple app that runs locally and determines whether an entered word is a palindrome or not.  We'll start by installing and importing the streamlit library, configuring our app, then integrating our function with Streamlit's framework.
-
- <br> 
-
-### Installing Streamlit:
-
-
-Opening your terminal of choice and entering a simple 'pip install' should do the trick, though a more detailed installation guide can be found [on Streamlit's web page].(https://docs.streamlit.io/library/get-started/installation#install-streamlit-on-windows)
-  
-```
-pip install streamlit
-```
   <br> 
   
-  
+# [Click Here to See My Pokedex App!](https://redskywalker7-stat386-projects-pokedex-q0yt5b.streamlitapp.com/)
