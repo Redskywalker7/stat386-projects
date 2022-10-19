@@ -35,7 +35,7 @@ def main():
         res = PokeInfo(str.lower(str(text_input)))
         if res.status_code != 200:
             st.write('Pokemon Not Found. Check whether your spelling or number is correct')
-            exit()
+            #exit()
         else: 
             DF = pokedex(res)
             container1 = st.container()
