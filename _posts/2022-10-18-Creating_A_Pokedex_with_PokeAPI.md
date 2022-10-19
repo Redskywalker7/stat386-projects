@@ -86,4 +86,4 @@ Most of the work involved with this Pokedex involves what we've already done in 
 
   <br> 
   
-Now go forth, Pokemon trainer! With access to the most comprehensive Pokemon database around, you are now ready to create your own Pokedex. I challenge you to create an even better Pokedex than mine, and to use the PokeAPI as a step toward other APIs. 
+Now go forth, Pokemon trainer! With access to the most comprehensive Pokemon database around, you are now ready to create your own Pokedex. I challenge you to create an even better Pokedex than mine, and to use the PokeAPI as a step toward utilizing other APIs. 
