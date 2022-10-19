@@ -76,6 +76,7 @@ Pokemon_DF.index += 1
 
 ## Using Streamlit to Create a Pokedex!
 ![image:](https://github.com/Redskywalker7/stat386-projects/blob/main/assets/Jigglypuff.png?raw=true)
+
 Now that we are able to pull Pokemon data from the PokeAPI into a pandas dataframe, our next step is to turn that data into a Pokedex! I've decided to use the Streamlit app framework to build mine in, but there are endless app frameworks available online with which incredible Pokedexes can be made. If you'd also like to use Streamlit to build your Pokedex app, then instructions on how to get started can be found [here](https://redskywalker7.github.io/stat386-projects/2022/09/22/How_to_Use_Streamlit.html). 
 
 Most of the work involved with this Pokedex involves what we've already done in the first half of this tutorial - connect to the PokeAPI and pull the data we are searching for. To create my Pokedex, I re-arranged the script above to take text inputs from the streamlit box and return information on the searched Pokemon. I've included an IF statement that returns an error code if the request status isn't 200. 
