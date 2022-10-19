@@ -42,7 +42,7 @@ def main():
             col1,col2,col3 = st.columns([3,2,2])
             with container1:
                 with col1:
-                    st.image(image(text_input),width = 200)
+                    st.image(image(res),width = 200)
                 with col2:
                     st.metric(label = 'Pokemon',value = DF.Pokemon[0])
                 with col3:
