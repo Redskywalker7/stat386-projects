@@ -5,12 +5,11 @@ import streamlit as st
 image_1 = 'https://github.com/Redskywalker7/stat386-projects/blob/main/assets/header.png?raw=true'
 
 def PokeInfo(entry):
-    url = "https://pokeapi.co/api/v2/pokemon/" + str(entry)
+    url = "https://pokeapi.co/api/v2/pokemon/" + entry
     res = requests.get(url)
     return res
 
-def pokedex(entry):
-    res = PokeInfo(str.lower(entry))
+def pokedex(res):
     Name = res.json()['name']
     Primary_Type = res.json()['types'][0]['type']['name']
     Weight = res.json()['weight']
@@ -20,8 +19,7 @@ def pokedex(entry):
     Pokemon_DF = pd.DataFrame([[Name,Primary_Type,Weight, Height, HP, Experience]],columns = ['Pokemon','Type','Weight','Height','HP','Experience'])
     return Pokemon_DF
 
-def image(entry):
-    res = PokeInfo(str.lower(entry))
+def image(res):
     image = res.json()['sprites']['front_default']
     return image
 
@@ -34,20 +32,24 @@ def main():
     )
 
     if text_input:
-        DF = pokedex(text_input)
-        container1 = st.container()
-        col1,col2,col3 = st.columns([3,2,2])
-        with container1:
-            with col1:
-                st.image(image(text_input),width = 200)
-            with col2:
-                st.metric(label = 'Pokemon',value = DF.Pokemon[0])
-            with col3:
-                st.write('Type: ' + DF.Type[0])
-                st.write('Weight: ' + str(DF.Weight[0]))
-                st.write('Height: ' + str(DF.Height[0]))
-                st.write('HP: ' + str(DF.HP[0]))
-                st.write('Experience: ' + str(DF.Experience[0]))          
+        res = PokeInfo(str.lower(str(text_input)))
+        if res.status_code != 200:
+            st.write('Pokemon Not Found. Check whether your spelling or number is correct')
+            exit()
+        else DF = pokedex(res)
+            container1 = st.container()
+            col1,col2,col3 = st.columns([3,2,2])
+            with container1:
+                with col1:
+                    st.image(image(text_input),width = 200)
+                with col2:
+                    st.metric(label = 'Pokemon',value = DF.Pokemon[0])
+                with col3:
+                    st.write('Type: ' + DF.Type[0])
+                    st.write('Weight: ' + str(DF.Weight[0]))
+                    st.write('Height: ' + str(DF.Height[0]))
+                    st.write('HP: ' + str(DF.HP[0]))
+                    st.write('Experience: ' + str(DF.Experience[0]))          
     
 if __name__ == "__main__":
     main()
