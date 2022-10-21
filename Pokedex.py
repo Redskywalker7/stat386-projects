@@ -11,6 +11,7 @@ def PokeInfo(entry):
 
 def pokedex(res):
     Name = res.json()['name']
+    ID = res.json()['id']
     Primary_Type = res.json()['types'][0]['type']['name']
     Weight = res.json()['weight']
     Height = res.json()['height']
@@ -50,7 +51,7 @@ def main():
                     st.write('Height: ' + str(DF.Height[0]))
                     st.write('HP: ' + str(DF.HP[0]))
                     st.write('Experience: ' + str(DF.Experience[0])) 
-                    st.write('Number: ' + str(DF.id[0]))
+                    st.write('Number: ' + str(DF.ID[0]))
     
 if __name__ == "__main__":
     main()
