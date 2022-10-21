@@ -17,7 +17,7 @@ def pokedex(res):
     Height = res.json()['height']
     HP = res.json()['stats'][0]['base_stat']
     Experience = res.json()['base_experience']
-    Pokemon_DF = pd.DataFrame([[Name,Primary_Type,Weight, Height, HP, Experience]],columns = ['Pokemon','Type','Weight','Height','HP','Experience'])
+    Pokemon_DF = pd.DataFrame([[Name,ID,Primary_Type,Weight, Height, HP, Experience]],columns = ['Pokemon','Type','Weight','Height','HP','Experience'])
     return Pokemon_DF
 
 def image(res):
