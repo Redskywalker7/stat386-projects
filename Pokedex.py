@@ -51,7 +51,7 @@ def main():
                     st.write('Height: ' + str(DF.Height[0]))
                     st.write('HP: ' + str(DF.HP[0]))
                     st.write('Experience: ' + str(DF.Experience[0])) 
-                    st.write('Number: ' + str(DF.ID[0]))
+                    st.write('Number: ' + str(DF.Number[0]))
     
 if __name__ == "__main__":
     main()
