@@ -46,12 +46,12 @@ def main():
                 with col2:
                     st.metric(label = 'Pokemon',value = DF.Pokemon[0])
                 with col3:
+                    st.write('Number: ' + str(DF.Number[0]))
                     st.write('Type: ' + DF.Type[0])
                     st.write('Weight: ' + str(DF.Weight[0]))
                     st.write('Height: ' + str(DF.Height[0]))
                     st.write('HP: ' + str(DF.HP[0]))
-                    st.write('Experience: ' + str(DF.Experience[0])) 
-                    st.write('Number: ' + str(DF.Number[0]))
+                    st.write('Experience: ' + str(DF.Experience[0]))               
     
 if __name__ == "__main__":
     main()
