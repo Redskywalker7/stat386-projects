@@ -7,3 +7,4 @@ description: Using our API data to find the best Pokemon to Catch.
 image: /assets/images/Pokemon.png
 ---
 {% include_relative output.html}
+% include_relative myfile.html
