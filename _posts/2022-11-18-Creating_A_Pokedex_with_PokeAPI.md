@@ -8,3 +8,6 @@ image: /assets/images/Pokemon.png
 ---
 {% include_relative output.html}
 % include_relative output.html
+
+
+<iframe width=100%, height=650, src='output.html'></iframe>
