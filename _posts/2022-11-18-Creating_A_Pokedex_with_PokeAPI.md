@@ -14,4 +14,6 @@ image: /assets/images/Pokemon.png
 
 {% include output.html %}
 
-% include output.html %
+% include output.html 
+
+{% include output.html}
