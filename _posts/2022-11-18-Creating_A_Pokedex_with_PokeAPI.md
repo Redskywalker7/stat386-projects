@@ -9,5 +9,6 @@ image: /assets/images/Pokemon.png
 
 % include_relative output.html
 {% include_relative output.html}
-include_relative output.html
-
+include output.html
+{include output.html}
+{%include output.html%}
