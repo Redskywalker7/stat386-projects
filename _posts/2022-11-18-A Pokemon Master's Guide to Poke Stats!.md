@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "A Pokemon Master's Guide to the Best Pokemon"
+title:  "A Pokemon Master's Guide to Poke Stats!"
 date:   2022-11-18
 author: "Luke McDowell"
-description: Exploratory Analysis on the world of Pokemon
+description: Exploratory Analysis within the world of Pokemon
 image: /assets/images/Pikachu.png
 ---
 
