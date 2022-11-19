@@ -39,7 +39,7 @@ Pokemon_DF['SpeedAttack'] = Pokemon_DF['Attack']+ Pokemon_DF['Speed']
 Pokemon_DF.sort_values(by = 'SpeedAttack',ascending = False)[0:5]
 ```
 
-and here are our results:
+Here are our results:
 
 ![image:](https://github.com/Redskywalker7/stat386-projects/blob/main/assets/images/FinalTable.png?raw=true)
 
