@@ -34,10 +34,10 @@ Well, let's go ahead to try and find the top five Attacking Pokemon. With this i
 ![image:](https://github.com/Redskywalker7/stat386-projects/blob/main/assets/images/Top5.png?raw=true)![image:](https://github.com/Redskywalker7/stat386-projects/blob/main/assets/images/tyranitar.png?raw=true)![image:](https://github.com/Redskywalker7/stat386-projects/blob/main/assets/images/dragonite.png?raw=true)![image:](https://github.com/Redskywalker7/stat386-projects/blob/main/assets/images/flareon.png?raw=true)![image:](https://github.com/Redskywalker7/stat386-projects/blob/main/assets/images/hooh.png?raw=true)![image:](https://github.com/Redskywalker7/stat386-projects/blob/main/assets/images/machamp.png?raw=true)
 
 We've also been told that speed is one of the most important attributes in the Pokemon world. Let's create a new stat that measures a Pokemon's speed + a Pokemon's attacking stat. This way we can find the Pokemon that can deal devasting damage at the quickest rate. We'll do that with the following code:
-'''
+```
 Pokemon_DF['SpeedAttack'] = Pokemon_DF['Attack']+ Pokemon_DF['Speed']
 Pokemon_DF.sort_values(by = 'SpeedAttack',ascending = False)[0:5]
-'''
+```
 
 and here are our results:
 
