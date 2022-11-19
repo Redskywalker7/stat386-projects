@@ -30,7 +30,7 @@ Notice the relatively strong correlation between experience and HP. This may hav
 
 ## Ok, But show me the Strongest Pokemon!
 
-Well, let's go ahead to try and find the top five Attacking Pokemon. With this information we should be able to single out some of the best potential attackers in our team, and give us an idea of which Pokemon to seak out. We'll do this by simply sorting our dataframe by the Attack statistic:
+Well, let's go ahead to try and find the top five Attacking Pokemon. With this information we should be able to single out some of the best potential attackers in our team, and give us an idea of which Pokemon to seek out. We'll do this by simply sorting our dataframe by the Attack statistic:
 
 ![image:](https://github.com/Redskywalker7/stat386-projects/blob/main/assets/images/Top5.png?raw=true)![image:](https://github.com/Redskywalker7/stat386-projects/blob/main/assets/images/tyranitar.png?raw=true)![image:](https://github.com/Redskywalker7/stat386-projects/blob/main/assets/images/dragonite.png?raw=true)![image:](https://github.com/Redskywalker7/stat386-projects/blob/main/assets/images/flareon.png?raw=true)![image:](https://github.com/Redskywalker7/stat386-projects/blob/main/assets/images/hooh.png?raw=true)![image:](https://github.com/Redskywalker7/stat386-projects/blob/main/assets/images/machamp.png?raw=true)
 
