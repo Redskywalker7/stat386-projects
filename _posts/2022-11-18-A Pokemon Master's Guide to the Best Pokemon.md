@@ -10,6 +10,8 @@ image: /assets/images/Poke_battle.jpg
 
 Let's go on a journey together - a journey to be a Pokemon Master. We may not know too much about these awesome creatures, but armed with the data that helped us recently build a Pokedex, we have just what we need to learn more about the kind of Pokemon that will help us claim that grand title. 
 
+
+## Are you my Type?
 A basic thing to know about Pokemon is that they are usually of a certain type. These types range from water and fire, to dragon and fairy types. Each type has vulnerabilities, or 'weakness' to certain other types, and is inversely 'super affective' against a few other types.Let's start by exploring which Pokemon types  have more of a comparitive advantage over others by looking at the top types by mean attacking and defensive stats from our Pokemon data. This would best be displayed as a bar chart:
 
 ![image:](https://github.com/Redskywalker7/stat386-projects/blob/main/assets/images/Defense.png?raw=true)![image:](https://github.com/Redskywalker7/stat386-projects/blob/main/assets/images/Attack.png?raw=true)
