@@ -26,6 +26,6 @@ Notice the strong correlation between experience and HP. This may have already b
 ![image:](https://github.com/Redskywalker7/stat386-projects/blob/main/assets/images/Scatter.png?raw=true)
 
 
-#Ok, But show me the Strongest Pokemon!
+## Ok, But show me the Strongest Pokemon!
 
 
