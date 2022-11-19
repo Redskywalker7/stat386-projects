@@ -42,6 +42,7 @@ Pokemon_DF.sort_values(by = 'SpeedAttack',ascending = False)[0:5]
 and here are our results:
 
 ![image:](https://github.com/Redskywalker7/stat386-projects/blob/main/assets/images/FinalTable.png?raw=true)
+
 ![image:](https://github.com/Redskywalker7/stat386-projects/blob/main/assets/images/mewtwo.png?raw=true)
 
 Well, there we have it. The Pokemon 'Mewtwo' has come out on top of the list for our final metric. As a highly ambitious Pokemon trainer, there is no way we can't set out to try and obtain Mewtwo for our team now. 
