@@ -21,3 +21,11 @@ Well this changes things... we thought Steel Pokemon were the type to go for, bu
 
 While a greater understanding of Pokemon's types is important, we also need to learn how to develop all of our Pokemon's stats. To gain some insights into this, lets create a correlation matrix with the stats that we do have, to see if we can learn how to better improve them.
 ![image:](https://github.com/Redskywalker7/stat386-projects/blob/main/assets/images/Matrix.png?raw=true)
+
+Notice the strong correlation between experience and HP. This may have already been intuitive, but this shows that our HP, or Hit-points (the amount of damage a Pokemon can withstand before fainting) is affected by the amount of experience it has in battle. In short, the more we train our Pokemon, the strong they will become. This is further illustrated by this scatter plot:
+![image:](https://github.com/Redskywalker7/stat386-projects/blob/main/assets/images/Scatter.png?raw=true)
+
+
+#Ok, But show me the Strongest Pokemon!
+
+
