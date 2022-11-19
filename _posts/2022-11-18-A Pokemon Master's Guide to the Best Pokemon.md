@@ -16,3 +16,8 @@ A basic thing to know about Pokemon is that they are usually of a certain type. 
 
 Interesting, we see Ground and Steel appearing in the top five for both stats. Before we just settle on be-lining for Ground and Steel Pokemon, let's remind ourselves that these bar charts represent the means for each respective stat, so we are taking a lot of Pokemon into consideration. There may be more of a mix of weak and powerful pokemon amongst other types. In fact, we haven't even explored how each type type is represented within the Pokemon population as a whole
 ![image:](https://github.com/Redskywalker7/stat386-projects/blob/main/assets/images/Types.png?raw=true)
+
+Well this changes things... we thought Steel Pokemon were the type to go for, but now we know there are only a few of them to even choose from. We now also know that water-type Pokemon are very common in comparison to other types. One would naturally consider collecting Pokemon that are strong against water types -  electric type Pokemon like Pikachu for instance.
+
+While a greater understanding of Pokemon's types is important, we also need to learn how to develop all of our Pokemon's stats. To gain some insights into this, lets create a correlation matrix with the stats that we do have, to see if we can learn how to better improve them.
+![image:](https://github.com/Redskywalker7/stat386-projects/blob/main/assets/images/Matrix.png?raw=true)
