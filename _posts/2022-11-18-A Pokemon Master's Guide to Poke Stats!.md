@@ -50,4 +50,4 @@ Well, there we have it. The Pokemon 'Mewtwo' has come out on top of the list for
 
 Despite the invaluable insights we've gained here, there is still a world of data to pull more from. The power of data can truly be a deciding factor in many competitive environments, and the processing of surfacing previously hidden insights can be incredibly fulfilling. What analysis would you carry out on this data set?
 
-
+Full Python script for each visual found here: https://github.com/Redskywalker7/stat386-projects/blob/main/EDA%20Blog.ipynb
