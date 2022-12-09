@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "An Ironman Data Story"
-date:   2022-11-18
+date:   2022-12-08
 author: "Luke McDowell"
 description: Tracking 3 Years of Garmin Watch Data
 image: /assets/images/Garmin.png
